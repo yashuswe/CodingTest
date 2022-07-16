@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+#head{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(122, 204, 204);
+    font-size: 42pt;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner{
+    background-image: linear-gradient(to bottom right,purple,rgb(165, 83, 165),rgb(172, 151, 172),lavender,white);
+    height: 80vh;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bannertex{
+    margin-top: 45vh;
+}
+#section1
+{
+height: 50vh;
+display: flex;
+width: 100%;
+background-color: aliceblue;
+}
+.sectex{
+    border: 0px solid white;
+    padding: 20px;
+    background-color: lavender;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+}
+.secdiv{
+    width: 25%;
+    border-radius: 20PX;
+    height: 30vh;
+    background-color:rgb(127, 187, 187) ;
+    margin: 10px;
+}
+#section2{
+    height: 45vh;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+   background-image:  radial-gradient(rgb(127, 187, 187), lavender, white);
+}
